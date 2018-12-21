@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/border"
+    android:clickable="true"
+    android:orientation="vertical"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Android\nProgramming"
+        android:textColor="@color/colorLabelFab"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:text="Developed by:"
+        android:textColor="@color/colorLabelFab"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:text="Rupali Pande"
+        android:textStyle="bold"
+        android:textColor="@color/colorLabelFab"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:text="Vijay Bharkade"
+        android:textStyle="bold"
+
+        android:textColor="@color/colorLabelFab"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
